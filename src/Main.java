@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
- serviceStation serviceStation = new serviceStation();
- bycicle bycicle = new bycicle("stels");
- car car = new car("Bugatti");
- truck truck = new truck("belaz" , 8);
+ ServiceStation serviceStation = new ServiceStation();
+ Bycicle bycicle = new Bycicle("stels",2);
+ Car car = new Car("Bugatti", 4);
+ Truck truck = new Truck("belaz" , 8);
  serviceStation.check(bycicle);
         System.out.println("_________________________"
         );

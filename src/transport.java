@@ -1,10 +1,10 @@
-public abstract class transport implements diagnostible {
+public abstract class transport implements Diagnostible {
     public final String modelName;
-    public final int wheelsCount;
+    public final int Wheels_Count;
 
     public transport(String modelName, int wheelsCount) {
         this.modelName = modelName;
-        this.wheelsCount = wheelsCount;
+        this.Wheels_Count = wheelsCount;
     }
 
     public String getModelName() {
@@ -12,10 +12,10 @@ public abstract class transport implements diagnostible {
     }
 
     public int getWheelsCount() {
-        return wheelsCount;
+        return Wheels_Count;
     }
     private void updateTyres(){
-        for (int i = 0; i < wheelsCount; ++i) {
+        for (int i = 0; i < Wheels_Count; ++i) {
             System.out.println("Меняем покрышку");
         }
     }

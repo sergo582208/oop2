@@ -1,5 +1,5 @@
-public class engineTransport extends  transport{
-    public engineTransport(String modelName, int wheelsCount) {
+public class EngineTransport extends  transport{
+    public EngineTransport(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
     private void checkEngine(){

@@ -1,6 +1,6 @@
-public class truck extends engineTransport{
+public class Truck extends EngineTransport {
 
-    public truck(String modelName, int Wheels_Count) {
+    public Truck(String modelName, int Wheels_Count) {
         super(modelName, Wheels_Count);
     }
     private void checkTrayler(){
